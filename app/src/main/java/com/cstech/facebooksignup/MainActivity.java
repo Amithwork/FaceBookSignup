@@ -118,5 +118,5 @@ public class MainActivity extends AppCompatActivity {
         if (AccessToken.getCurrentAccessToken()!= null){
             loadUserProfile(AccessToken.getCurrentAccessToken());
         }
-    }
+    } 
 }
